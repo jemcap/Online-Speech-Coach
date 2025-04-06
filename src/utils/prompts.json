@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "category": "General",
+        "prompt": "Can you tell me about yourself?"
+    },
+    {
+        "id": "2",
+        "category": "Economy",
+        "prompt": "What do you think about today's economy?"
+    },
+    {
+        "id": "3",
+        "category": "Technology",
+        "prompt": "What do you think about AI taking jobs?"
+    }
+]
