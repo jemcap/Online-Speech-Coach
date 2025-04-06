@@ -1,0 +1,61 @@
+{
+    "categories": [
+        {
+            "id": "introductions",
+            "name": "Introduction Speeches",
+            "description": "Practice introducing yourself or a topic in a clear, engaging manner",
+            "prompts": [
+                {
+                    "id": "intro_1",
+                    "text": "Introduce yourself and explain why you're passionate about your field",
+                    "duration": 60,
+                    "difficulty": "beginner"
+                },
+                {
+                    "id": "intro_2",
+                    "text": "Introduce a complex topic as if explaining it to someone with no prior knowledge",
+                    "duration": 90,
+                    "difficulty": "intermediate"
+                }
+            ]
+        },
+        {
+            "id": "impromptu",
+            "name": "Impromptu Speaking",
+            "description": "Develop the ability to speak coherently with minimal preparation",
+            "prompts": [
+                {
+                    "id": "impromptu_1",
+                    "text": "Talk about a significant challenge you've overcome in your life",
+                    "duration": 120,
+                    "difficulty": "intermediate"
+                },
+                {
+                    "id": "impromptu_2",
+                    "text": "If you could change one thing about the education system, what would it be and why?",
+                    "duration": 120,
+                    "difficulty": "advanced"
+                }
+            ]
+        },
+        {
+            "id": "persuasive",
+            "name": "Persuasive Speaking",
+            "description": "Practice making convincing arguments with confidence",
+            "prompts": [
+                {
+                    "id": "persuasive_1",
+                    "text": "Convince your audience to adopt a daily habit that you believe is beneficial",
+                    "duration": 120,
+                    "difficulty": "intermediate"
+                },
+                {
+                    "id": "persuasive_2",
+                    "text": "Argue for or against the statement: 'Technology has made our lives better'",
+                    "duration": 180,
+                    "difficulty": "advanced"
+                }
+            ]
+        }
+    ]
+}

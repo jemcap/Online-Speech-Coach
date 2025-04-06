@@ -7,7 +7,9 @@ interface Prompt {
   prompt: string;
 }
 
-const PromptDisplay: React.FC = () => {
+const PromptDisplay: React.FC<{
+  onPromptSelected: (prompt: Prompt) => void;
+}> = ({ onPromptSelected }) => {
   const [prompt, setPrompt] = useState<Prompt | null>(null);
 
   useEffect(() => {
@@ -21,6 +23,7 @@ const PromptDisplay: React.FC = () => {
     }
     const selectedPrompt = prompts[Math.floor(Math.random() * prompts.length)];
     setPrompt(selectedPrompt);
+    onPromptSelected(selectedPrompt);
   };
   return <div>{prompt && <h2>{prompt.prompt}</h2>}</div>;
 };
