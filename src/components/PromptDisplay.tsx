@@ -35,12 +35,6 @@ const PromptDisplay: React.FC<Props> = ({ onSelectedPrompt }) => {
   };
   return (
     <div>
-      {prompt && (
-        <>
-          <h2>{prompt.category}</h2>
-          <p>{prompt.prompt}</p>
-        </>
-      )}
       <button onClick={getRandomPrompt}>New Prompt</button>
     </div>
   );
