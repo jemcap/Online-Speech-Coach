@@ -16,7 +16,7 @@ const Layout = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Speaking Trainer
+            Speech Trainer
           </Typography>
           <Button color="inherit" component={Link} to="/">
             Home

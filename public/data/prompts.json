@@ -1,61 +1,102 @@
-{
-    "categories": [
-        {
-            "id": "introductions",
-            "name": "Introduction Speeches",
-            "description": "Practice introducing yourself or a topic in a clear, engaging manner",
-            "prompts": [
-                {
-                    "id": "intro_1",
-                    "text": "Introduce yourself and explain why you're passionate about your field",
-                    "duration": 60,
-                    "difficulty": "beginner"
-                },
-                {
-                    "id": "intro_2",
-                    "text": "Introduce a complex topic as if explaining it to someone with no prior knowledge",
-                    "duration": 90,
-                    "difficulty": "intermediate"
-                }
-            ]
-        },
-        {
-            "id": "impromptu",
-            "name": "Impromptu Speaking",
-            "description": "Develop the ability to speak coherently with minimal preparation",
-            "prompts": [
-                {
-                    "id": "impromptu_1",
-                    "text": "Talk about a significant challenge you've overcome in your life",
-                    "duration": 120,
-                    "difficulty": "intermediate"
-                },
-                {
-                    "id": "impromptu_2",
-                    "text": "If you could change one thing about the education system, what would it be and why?",
-                    "duration": 120,
-                    "difficulty": "advanced"
-                }
-            ]
-        },
-        {
-            "id": "persuasive",
-            "name": "Persuasive Speaking",
-            "description": "Practice making convincing arguments with confidence",
-            "prompts": [
-                {
-                    "id": "persuasive_1",
-                    "text": "Convince your audience to adopt a daily habit that you believe is beneficial",
-                    "duration": 120,
-                    "difficulty": "intermediate"
-                },
-                {
-                    "id": "persuasive_2",
-                    "text": "Argue for or against the statement: 'Technology has made our lives better'",
-                    "duration": 180,
-                    "difficulty": "advanced"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "id": "1",
+        "category": "Podcast Intro",
+        "prompt": "Introduce yourself in under 30 seconds."
+    },
+    {
+        "id": "2",
+        "category": "Persuasion",
+        "prompt": "Convince someone to start a new healthy habit."
+    },
+    {
+        "id": "3",
+        "category": "Storytelling",
+        "prompt": "Tell a short story about a time you faced a challenge and overcame it."
+    },
+    {
+        "id": "4",
+        "category": "Interview",
+        "prompt": "Describe your ideal job and why it would be perfect for you."
+    },
+    {
+        "id": "5",
+        "category": "Debate",
+        "prompt": "Argue for or against the use of social media in education."
+    },
+    {
+        "id": "6",
+        "category": "Presentation",
+        "prompt": "Explain a complex topic in simple terms."
+    },
+    {
+        "id": "7",
+        "category": "Sales Pitch",
+        "prompt": "Sell a product or service to a potential customer."
+    },
+    {
+        "id": "8",
+        "category": "Networking",
+        "prompt": "Introduce yourself at a networking event."
+    },
+    {
+        "id": "9",
+        "category": "Feedback",
+        "prompt": "Provide constructive feedback on a colleague's work."
+    },
+    {
+        "id": "10",
+        "category": "Public Speaking",
+        "prompt": "Give a short speech on a topic you are passionate about."
+    },
+    {
+        "id": "11",
+        "category": "Negotiation",
+        "prompt": "Negotiate a deal with a potential client."
+    },
+    {
+        "id": "12",
+        "category": "Conflict Resolution",
+        "prompt": "Resolve a disagreement between two team members."
+    },
+    {
+        "id": "13",
+        "category": "Team Building",
+        "prompt": "Lead a team-building exercise."
+    },
+    {
+        "id": "14",
+        "category": "Crisis Management",
+        "prompt": "Handle a crisis situation in a calm and effective manner."
+    },
+    {
+        "id": "15",
+        "category": "Motivation",
+        "prompt": "Inspire someone to achieve their goals."
+    },
+    {
+        "id": "16",
+        "category": "Creativity",
+        "prompt": "Brainstorm new ideas for a project."
+    },
+    {
+        "id": "17",
+        "category": "Empathy",
+        "prompt": "Show empathy towards someone going through a tough time."
+    },
+    {
+        "id": "18",
+        "category": "Cultural Awareness",
+        "prompt": "Discuss the importance of cultural awareness in communication."
+    },
+    {
+        "id": "19",
+        "category": "Active Listening",
+        "prompt": "Demonstrate active listening skills in a conversation."
+    },
+    {
+        "id": "20",
+        "category": "Body Language",
+        "prompt": "Explain the role of body language in effective communication."
+    }
+]
